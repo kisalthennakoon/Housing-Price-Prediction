@@ -22,10 +22,21 @@ The project uses the California housing prices dataset, which contains a rich se
 - Chooses the random forest model for prediction, with parameters optimized using randomized search CV methods.
 - Includes cluster similarity algorithms, such as k-means clustering, for district categorization based on geographical features.
 
+  ## Requirements
+
+To run this project, you need the following libraries:
+
+- pandas
+- matplotlib
+- sklearn
+- scipy
+- numpy
+- joblib
+
 ## Usage
-1. Clone the repository: `git clone https://github.com/yourusername/housing-prediction.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter Notebook to explore the project and make predictions.
+1. Open the Jupyter Notebook in Weather Prediction file.
+2. Install all the requirements mentioned in under the requarements title
+3. Run all cells to load the model and predict prices.
 
 ## Credits
 - Aurélien Géron for the book "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems."
